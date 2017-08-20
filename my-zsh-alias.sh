@@ -5,6 +5,7 @@ function sharefile(){
   return 1;
 }
 alias q="exit"
+alias ..="cd .."
 alias c="clear"
 alias cat="pygmentize -g"
 alias catt="/usr/bin/cat"
@@ -24,6 +25,8 @@ alias unleashed="mpv /home/nguyenvinhlinh/Music/Skillet\ -\ Unleashed\ (2016)/ -
 alias iea_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d iea_dev"
 alias vetter_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d vetter_dev"
 alias mind_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d mindoula_server_dev"
+alias the_big_boy_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d the_big_boy_dev"
+
 
 alias ser="iex -S mix phoenix.server"
 alias docker_maria="cd /home/nguyenvinhlinh/Projects/docker-services/mariadb; docker-compose up -d;"
