@@ -27,6 +27,7 @@ alias vetter_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d vetter_dev"
 alias mind_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d mindoula_server_dev"
 alias the_big_boy_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d the_big_boy_dev"
 alias subnow_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d subnow_dev"
+alias ttek_db="psql -U nguyenvinhlinh -h localhost -p 15432 -d ttek_microsite_dev"
 
 
 alias ser="iex -S mix phoenix.server"
