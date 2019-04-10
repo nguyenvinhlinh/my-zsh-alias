@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+
 alias q="exit"
 alias ..="cd .."
 alias c="clear"

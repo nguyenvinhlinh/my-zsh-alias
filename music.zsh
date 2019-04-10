@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
+
 alias beautiful_life="mpv --no-video $HOME/Music/Beautiful_Life"
 alias beethoven="mpv --no-video $HOME/Music/Beethoven"
 alias chat_voi_mozart2="mpv --no-video $HOME/Music/Chat_Với_Mozart_vol.2"
