@@ -8,10 +8,9 @@ alias street_rhythm="mpv --no-video $HOME/Music/Street_Rhythm"
 alias chillout="mpv --no-video --shuffle $HOME/Music/Chillout"
 alias jazz="mpv --no-video --shuffle $HOME/Music/Jazz/"
 
-alias youd="youtube-dl --write-thumbnail --extract-audio --audio-format flac --audio-quality 0"
-alias youdd="yt-dlp --write-thumbnail --extract-audio --audio-format flac --audio-quality 0"
-alias youdd_mp3="yt-dlp --write-thumbnail --extract-audio --audio-format mp3 --audio-quality 0"
-alias youdd_mp4="yt-dlp --write-thumbnail --extract-audio --audio-format mp3 --audio-quality 0"
-alias youdd_academic="yt-dlp --embed-thumbnail --merge-output-format=mkv \
-                             --embed-subs      --write-auto-subs \
-                             --embed-thumbnail"
+alias youd="yt-dlp --write-thumbnail --extract-audio --audio-format flac --audio-quality 0"
+alias youd_mp3="yt-dlp --write-thumbnail --extract-audio --audio-format mp3 --audio-quality 0"
+alias youd_mp4="yt-dlp --write-thumbnail --extract-audio --audio-format mp3 --audio-quality 0"
+alias youd_academic="yt-dlp --write-thumbnail --embed-thumbnail \
+                            --merge-output-format=mkv \
+                            --embed-subs --write-auto-subs -k"
