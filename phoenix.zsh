@@ -1,3 +1,3 @@
 #!/usr/bin/env zsh
 
-alias ser="iex -S mix phx.server"
+alias ser="iex --dbg pry -S mix phx.server"
