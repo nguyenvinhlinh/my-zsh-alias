@@ -6,7 +6,7 @@ function wan_ip() {
 }
 
 function lan_ip(){
-    lan_ip=$(ip -o route get to 8.8.8.8 | grep -oP 'src \K[0-9.]+')
+    lan_ip=$(ip -o route get to 8.8.8.8 | awk '{for(i=1;i<=NF;i++) if($i=="src") print $(i+1)}')
     wl-copy "$lan_ip"
     echo "LAN IP: $lan_ip"
 }
