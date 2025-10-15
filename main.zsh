@@ -9,4 +9,5 @@ source $MY_ALIAS/jekyll.zsh;
 source $MY_ALIAS/crypto-node.zsh;
 source $MY_ALIAS/crypto-node.zsh;
 source $MY_ALIAS/discord.zsh;
-source $MY_ALIAS/test-https-ip.zsh;
+source $MY_ALIAS/test_https_ip.zsh;
+source $MY_ALIAS/get_public_ip.zsh;
