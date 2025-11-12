@@ -11,3 +11,4 @@ source $MY_ALIAS/crypto-node.zsh;
 source $MY_ALIAS/discord.zsh;
 source $MY_ALIAS/test_https_ip.zsh;
 source $MY_ALIAS/get_ip.zsh;
+source $MY_ALIAS/qrencode.zsh;
